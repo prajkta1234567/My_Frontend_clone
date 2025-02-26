@@ -1,0 +1,314 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: bmwTypeNextWeb, Arial, Helvetica, Roboto, sans-serif;
+}
+
+#container {
+  background: url(../Assets/Taillights-Animation-2006-BMW-Concept-GINA-GIF.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -2;
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "";
+  width: 1519px;
+  height: 854px;
+}
+#nav {
+  height: 84px;
+  display: flex;
+  align-items: center;
+  border-bottom: 3px solid red;
+}
+#menu {
+  /* background-color: blueviolet; */
+  height: 84px;
+  width: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-left: 20px;
+}
+#box1 {
+  height: 84px;
+  display: flex;
+  align-items: center;
+  /* border-bottom: 3px solid red; */
+}
+#box1:hover {
+  border-bottom: 3px solid rgb(135, 135, 244);
+}
+.box11 {
+  text-decoration: none;
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: bolder;
+  font-family: bmwTypeNextWeb, Arial, Helvetica, Roboto, sans-serif;
+  color: #ffff;
+}
+#cartside {
+  /* background-color: brown; */
+  height: 84px;
+  width: 196px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-left: 460px;
+}
+a {
+  font-size: 20px;
+  line-height: 24px;
+  background: 000000 0%;
+  color: #ffff;
+  margin-left: 20px;
+}
+#five {
+  /* background-color: bisque; */
+  height: 500px;
+  width: 400px;
+  margin-top: 190px;
+  margin-left: 96px;
+}
+
+h3 {
+  padding-top: px;
+  font-size: 25px;
+  font-weight: lighter;
+  font-family: bmwTypeNextWeb, Arial, Helvetica, Roboto, sans-serif;
+  color: white;
+}
+h1 {
+  font-size: 260px;
+  font-weight: normal;
+  font-family: bmwTypeNextWeb, Arial, Helvetica, Roboto, sans-serif;
+  color: white;
+}
+button {
+  margin-top: 10px;
+  height: 50px;
+  width: 190px;
+  font-size: 15px;
+  font-family: bmwTypeNextWeb, Arial, Helvetica, Roboto, sans-serif;
+  line-height: 24px;
+  color: white;
+  background-color: #1c69d4;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+button:hover {
+  background-color: #074eb2;
+}
+p {
+  padding-left: 96px;
+  padding-top: 10px;
+  font-size: 15px;
+  font-family: bmwTypeNextWeb, Arial, Helvetica, Roboto, sans-serif;
+  line-height: 24px;
+  color: white;
+}
+
+#phone {
+  margin-left: 1400px;
+  background-color: white;
+  width: 52px;
+  font-size: 15px;
+  height: 52px;
+  margin-top: -350px;
+  position: fixed;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+}
+#phone1 {
+  margin-left: 1400px;
+  margin-bottom: 50px;
+  background-color: white;
+  width: 52px;
+  font-size: 15px;
+  height: 52px;
+  margin-top: -350px;
+  position: fixed;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+}
+#phone:hover {
+  background-color: rgb(224, 217, 217);
+}
+#phoni {
+  color: #04080d;
+  padding-left: -20px;
+}
+#second {
+  height: 854px;
+  width: 1519px;
+  background: url(../Assets/secondhd.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin-top: 84px;
+}
+.imgsecond {
+  height: 854px;
+  width: 1519px;
+}
+#secondpage {
+  height: 600px;
+  padding-top: 407px;
+  width: 500px;
+  /* background-color: antiquewhite; */
+
+  margin-left: 96px;
+}
+#thirdpage {
+  height: 385px;
+  width: 1351px;
+  /* background-color: antiquewhite; */
+  margin-left: 84px;
+  margin-right: 84px;
+  margin-top: 64px;
+}
+#tools {
+  margin-left: 237px;
+  margin-right: 237px;
+  text-align: center;
+  padding-top: 24px;
+  font-size: 15px;
+  color: #262626;
+}
+#find {
+  margin: 13px 496px;
+  text-align: center;
+  width: 390px;
+  line-height: 60px;
+  font-size: 43px;
+  color: #262626;
+  font-weight: normal;
+}
+#bmwimg {
+  display: flex;
+  justify-content: space-around;
+}
+#firstcar {
+  height: 197px;
+  width: 400px;
+}
+#secondcar {
+  height: 197px;
+  width: 400px;
+}
+#thirdcar {
+  height: 197px;
+  width: 400px;
+}
+#btnn {
+  height: 52px;
+  width: 131px;
+  font-size: 15px;
+  line-height: 24px;
+  color: #262626;
+  background-color: white;
+  margin-left: 120px;
+  /* border-crgb(111, 108, 108)262626;
+} */
+}
+#btnn:hover {
+  border: 3px solid black;
+}
+#twocar1 {
+  height: 506px;
+  width: 1519px;
+  margin-top: 150px;
+}
+#two {
+  height: 200px;
+  width: 200px;
+}
+#bt {
+  width: 307px;
+  height: 52px;
+  margin-left: 96px;
+  margin-top: 35px;
+  color: white;
+  background-color: transparent;
+  border: 2px solid rgb(207, 192, 192);
+}
+#bt:hover {
+  border: 3px solid white;
+}
+#iximg {
+  height: 380px;
+  width: 650px;
+}
+#ixi {
+  margin-top: 180px;
+  margin-left: 96px;
+}
+#bmwele {
+  margin-left: 96px;
+  float: right;
+  margin-top: -300px;
+}
+#btnnnn {
+  height: 52;
+  width: 201;
+  background-color: transparent;
+  color: #262626;
+  font-weight: bolder;
+}
+#btnnnn:hover {
+  border: 3px solid black;
+}
+#model {
+  font-size: 15px;
+  text-decoration: none;
+  color: #262626;
+}
+#model:hover {
+  color: #1c69d4;
+}
+#contain {
+}
+#mainnm {
+  height: 428px;
+  width: 1351px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #f8f5f5;
+  margin-left: 90px;
+  padding-top: 80px;
+}
+#submainnm1 {
+  padding-top: 80px;
+  font-size: 12px;
+  line-height: 16px;
+  color: #262626;
+  text-decoration: none;
+}
+#li {
+  color: #262626;
+  line-height: 24px;
+  padding-top: 8px;
+  margin-left: 20px;
+  text-decoration: none;
+  font-size: 15px;
+  line-height: 24px;
+}
+#li:hover {
+  font-weight: bolder;
+}
+#logo {
+  height: 100px;
+  width: 1351px;
+  /* background-color: beige; */
+  margin-left: 90px;
+  margin-top: -100px;
+  display: flex;
+  align-items: center;
+}
+
+#logo1 {
+  color: #4d4d4d;
+}
