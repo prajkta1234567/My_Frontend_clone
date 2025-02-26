@@ -1,0 +1,281 @@
+@import url("https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav {
+  background-color: #141414;
+  height: 68px;
+  width: 1519px;
+  display: flex;
+}
+h2 {
+  font-size: 25px;
+  line-height: 25px;
+  text-align: start;
+  letter-spacing: normal;
+  color: #e50914;
+  font-family: "Ubuntu", sans-serif;
+}
+#netflix {
+  height: 25px;
+  width: 105px;
+  /* background-color: antiquewhite; */
+  margin-left: 60px;
+  margin-top: 22px;
+  margin-bottom: 22px;
+}
+#container {
+  background-image: url(../Assets/BADLAimg.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #141414;
+}
+#menu {
+  height: 16px;
+  width: 533px;
+  /* background-color: rgb(197, 136, 67); */
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 45px;
+  margin-top: 26px;
+  margin-bottom: 26px;
+}
+
+/* /* #menu{
+  height: 16px;
+  width: 533px;
+  background-color: rgb(197, 136, 67);
+  position: relative;
+  margin-top:   26px;
+  margin-left:178px ;
+  margin-bottom: 26px ;
+  margin-right: 808px;
+} */
+.menu_item {
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 16.8px;
+  /* background-color: #e50914;  */
+  letter-spacing: normal;
+  color: #e5e5e5;
+  font-family: "Ubuntu", sans-serif;
+  margin-left: 15px;
+}
+.menu_item:hover {
+  color: #aeadad;
+}
+.menu_item:focus {
+  font-size: 14px;
+  font-weight: bolder;
+}
+#cartside {
+  height: 68px;
+  width: 222px;
+  /* background-color: beige; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-right: 60px;
+  margin-left: 490px;
+}
+#search {
+  height: 24px;
+  width: 24px;
+  /* background-color: #e50914; */
+}
+.search1 {
+  font-size: 16px;
+  line-height: 16.8px;
+  text-align: center;
+  color: #ffffff;
+  display: flex;
+  padding-top: 5px;
+  justify-content: center;
+  text-decoration: none;
+  font-family: "Ubuntu", sans-serif;
+}
+#children {
+  height: 16px;
+  width: 53px;
+}
+.children1 {
+  font-size: 14px;
+  line-height: 16.8px;
+  text-align: start;
+  color: #ffffff;
+  text-decoration: none;
+  font-family: "Ubuntu", sans-serif;
+}
+#Badlaimg {
+  height: 700px;
+  width: 100%;
+}
+#BadlaText {
+  height: 260px;
+  width: 612px;
+  margin: 153px 516px 21px 60px;
+}
+#BadlaBtmText {
+  margin-left: 60px;
+
+  margin-top: 30px;
+  line-height: normal;
+  text-align: start;
+  color: #ffffff;
+  font-family: sans-serif;
+  font-weight: bolder;
+}
+#play {
+  height: 46px;
+  width: 146px;
+  font-size: 11.52px;
+  box-shadow: none;
+  border-radius: 4px;
+
+  background-color: #ffffff;
+  margin-left: 60px;
+  margin-top: 23px;
+}
+#playtext {
+  font-size: 17.432px;
+  line-height: 10.137px;
+  margin-left: 10px;
+  font-family: sans-serif;
+}
+#playsymbol {
+  font-size: 20px;
+}
+#playsymbol1 {
+  font-size: 20px;
+}
+#info {
+  height: 48px;
+  width: 172px;
+  font-size: 11.52px;
+  box-shadow: none;
+  border-radius: 4px;
+  background: #6d6d6e;
+  margin-left: 5px;
+  color: #ffffff;
+  font-weight: bolder;
+}
+#top {
+  height: 60px;
+  width: 300px;
+  margin-top: 90px;
+  margin-left: 60px;
+}
+.top1 {
+  font-size: 21.504px;
+  line-height: 19.2px;
+  color: #e5e5e5;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+#divfirst {
+  height: 165px;
+  width: 1399px;
+  /* background-color: aqua; */
+  margin-left: 50px;
+  display: flex;
+}
+#divfirst1 {
+  height: 165px;
+  width: 1399px;
+  /* background-color: aqua; */
+
+  display: flex;
+}
+.goat {
+  margin-right: -55px;
+}
+
+#first {
+  font-size: 250px;
+  height: 190px;
+  border: 5px;
+  color: black;
+  margin-top: -80px;
+  display: flex;
+  justify-content: space-around;
+  margin-left: 20px;
+}
+
+.firstimg {
+  height: 175px;
+  width: 130px;
+  margin-left: 80px;
+}
+.frst {
+  margin-left: -120px;
+}
+#top2 {
+  height: 60px;
+  width: 300px;
+  margin-left: 60px;
+  background-color: #141414;
+}
+.top2 {
+  font-size: 21.504px;
+  line-height: 19.2px;
+  color: #e5e5e5;
+  font-weight: bold;
+  font-family: sans-serif;
+  margin-left: 60px;
+  margin-top: 50px;
+  background-color: #141414;
+}
+body {
+  background-color: #141414;
+}
+#top3 {
+  margin-left: 60px;
+  background-color: #141414;
+  margin-top: 20px;
+}
+
+.goatlife {
+  height: 129px;
+  width: 233px;
+}
+#Symbol {
+  height: 50px;
+  width: 1120px;
+  /* background-color: aqua; */
+  margin-left: 180px;
+  margin-top: 100px;
+  display: flex;
+}
+.logo {
+  font-size: 30px;
+  margin-left: 20px;
+  color: #ffffff;
+}
+li {
+  font-family: sans-serif;
+  color: #808080;
+  line-height: 15.6px;
+  font-size: 13px;
+  padding-top: 10px;
+}
+.service {
+  margin-top: 30px;
+  margin-left: 190px;
+  height: 35px;
+  width: 100px;
+  background-color: transparent;
+  color: #808080;
+  border: 2px solid #808080;
+}
+.service:hover {
+  color: #ffffff;
+}
+#copy {
+  height: 11px;
+  margin-left: 190px;
+  margin-top: 20px;
+  font-size: 13px;
+  color: #808080;
+}
